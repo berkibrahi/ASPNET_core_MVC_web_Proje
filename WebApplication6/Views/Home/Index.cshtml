@@ -1,0 +1,18 @@
+﻿@using WebApplication6.Models
+@model HomePageViewModel
+
+@section header 
+{
+@await Html.PartialAsync("_header")
+}
+<h1>Film</h1>
+    <div id="filmler">
+   
+    @foreach(var movie in Model.popularMovies)
+    {
+     
+            @await Html.PartialAsync("_movie", movie)
+     
+    }
+</div>
+ 

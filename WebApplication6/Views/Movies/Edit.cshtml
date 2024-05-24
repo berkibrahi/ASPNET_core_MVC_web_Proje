@@ -1,0 +1,33 @@
+﻿@model Movie
+
+<h1>Edit Movie</h1>
+<hr class="border border-danger" />
+<form method="post" asp-controller="Movies" asp-action="Edit">
+    <input type="hidden" name="movieId" value="@Model.movieId" />
+    <div class="mb-3">
+        <label asp-for="title"></label>
+        <input asp-for="title" class="form-control border border-danger" value="@Model.title"/>
+    </div>
+    <div class="mb-3">
+        <label asp-for="description"></label>
+        <textarea asp-for="description" class="form-control border border-danger">@Model.description</textarea>
+    </div>
+    @* <div class="mb-3">
+        <label asp-for="director"></label>
+        <input asp-for="director" class="form-control border border-danger" value="@Model.director" />
+    </div> *@
+    <div class="mb-3">
+        <label asp-for="imageUrl"></label>
+        <input asp-for="imageUrl" class="form-control border border-danger" value="@Model.imageUrl" />
+    </div>
+   @*  <div class="mb-3">
+        <label asp-for="genreId"></label>
+        <select asp-for="genreId"asp-items="@ViewBag.Genres" class="form-control border border-danger">
+            <option selected disabled>Seçiniz</option>
+        </select>
+
+    </div> *@
+    <div class="mb-3">
+        <button type="submit" class="btn btn-danger">Güncelle</button>
+    </div>
+</form>

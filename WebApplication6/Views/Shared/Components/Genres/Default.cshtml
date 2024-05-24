@@ -1,0 +1,9 @@
+﻿@using WebApplication6.Models
+@model List<Genre>
+<ul class="list-group">
+    <a href="/movies/list" class="list-group-item list-group-item-action  @(ViewBag.selectedGenre == null ? "active" : "") list-group-item-danger">Tüm Filmler</a>
+    @foreach (var genre in Model)
+    {
+        <a href="/movies/list/@genre.genreId" class="list-group-item list-group-item-action  @(ViewBag.selectedGenre == @genre.genreId.ToString() ? "active" : "") list-group-item-danger">@genre.Name</a>
+    }
+</ul>

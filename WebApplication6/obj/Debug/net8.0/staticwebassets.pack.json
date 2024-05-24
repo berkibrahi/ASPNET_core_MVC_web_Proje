@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ibrahimberk\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\img\\8.jpeg",
+      "PackagePath": "staticwebassets\\img\\8.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication6.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication6.props",
+      "PackagePath": "build\\WebApplication6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication6.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication6.props",
+      "PackagePath": "buildTransitive\\WebApplication6.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

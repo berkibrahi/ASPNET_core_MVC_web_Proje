@@ -1,0 +1,37 @@
+﻿@model Movie
+
+<h1>Create Movie</h1>
+<hr class="border border-danger" />
+<form method="post" asp-controller="Movies" asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="title"></label>
+        <input asp-for="title" class="form-control border border-danger" />
+        <span asp-validation-for="title" class="text-warning"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="description"></label>
+        <textarea asp-for="description" class="form-control border border-danger"></textarea>
+        <span asp-validation-for="description" class="text-warning"></span>
+    </div>
+   @*  <div class="mb-3">
+        <label asp-for="director"></label>
+        <input asp-for="director" class="form-control border border-danger" />
+        <span asp-validation-for="director" class="text-warning"></span>
+    </div> *@
+    <div class="mb-3">
+        <label asp-for="imageUrl"></label>
+        <input asp-for="imageUrl" class="form-control border border-danger" />
+        <span asp-validation-for="imageUrl" class="text-warning"></span>
+    </div>
+    @* <div class="mb-3">
+        <label asp-for="genreId"></label>
+        <select asp-for="genreId" asp-items="@ViewBag.Genres" class="form-control border border-danger">
+            <option class="bg-danger" selected disabled>Seçiniz</option>
+        </select>
+        <span asp-validation-for="genreId" class="text-warning"></span>
+
+    </div> *@
+    <div class="mb-3">
+        <button type="submit" class="btn btn-danger">Kaydet</button>
+    </div>
+</form>

@@ -1,0 +1,27 @@
+﻿@model Movie
+<div class="card">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="/img/@Model.imageUrl" class="card-img" />
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h5 class="card-title">@Model.title</h5>
+                <p class="card-text">@Model.description</p>
+               @*  <p class="card-text">@Model.director</p> *@
+               @*  @if (Model.players!=null)
+                {
+                    <p>
+                        <ul>
+                            @foreach (var item in Model.players)
+                            {
+                                <li>@item</li>
+                            }
+
+                        </ul>
+                    </p>
+                } *@
+            </div>
+        </div>
+    </div>
+</div>
